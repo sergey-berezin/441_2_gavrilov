@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Lab 1": {
+      "commandName": "Project",
+      "commandLineArgs": "sheeps.jpg catsdogs.jpg table.jpg bus.jpg nedobus.jpg bird.jpg sheep.jpg"
+    }
+  }
+}
