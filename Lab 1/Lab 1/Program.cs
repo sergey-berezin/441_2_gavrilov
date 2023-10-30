@@ -69,7 +69,6 @@ namespace Model_runner
             foreach (var item in task)
             {
                 var a = item.StartImage.Clone();
-                //a.SaveAsJpeg(new Random().NextDouble() + name);
                 manager.Annotate(a, item.Objectbox);
                 a.SaveAsJpeg(item.Objectbox.Class + i++ + name);
 

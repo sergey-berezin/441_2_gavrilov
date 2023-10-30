@@ -25,6 +25,8 @@ namespace onnx_manager
             IsModelDownloaded = false;
         }
 
+        private object lockSession = new object();
+
         public void Downloader()
         {
             WebClient webclient = new WebClient();
@@ -118,7 +120,12 @@ namespace onnx_manager
 
             // Вычисляем предсказание нейросетью
             //using var session = new InferenceSession("tinyyolov2-8.onnx");
-            using IDisposableReadOnlyCollection<DisposableNamedOnnxValue> results = session.Run(inputs);
+            IDisposableReadOnlyCollection<DisposableNamedOnnxValue> results;
+
+            lock (lockSession)
+            {
+                results = session.Run(inputs);
+            }
 
             // Получаем результаты
             var outputs = results.First().AsTensor<float>();

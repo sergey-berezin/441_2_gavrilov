@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="onnx_manager" Version="0.0.1" />
+    <PackageReference Include="onnx_manager" Version="0.0.4" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.0.2" />
   </ItemGroup>
 
