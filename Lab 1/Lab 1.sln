@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 1", "Lab 1\Lab 1.csproj", "{968CF927-56D8-4A6C-AE63-88345639D449}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab 1", "Lab 1\Lab 1.csproj", "{968CF927-56D8-4A6C-AE63-88345639D449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onnx_manager", "onnx_manager\onnx_manager.csproj", "{6906B2A4-CA8D-4921-B5A0-4F29603B2898}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "onnx_manager", "onnx_manager\onnx_manager.csproj", "{6906B2A4-CA8D-4921-B5A0-4F29603B2898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{0A479FD1-03CC-410C-8096-BE89A7127DE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6906B2A4-CA8D-4921-B5A0-4F29603B2898}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6906B2A4-CA8D-4921-B5A0-4F29603B2898}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6906B2A4-CA8D-4921-B5A0-4F29603B2898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A479FD1-03CC-410C-8096-BE89A7127DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A479FD1-03CC-410C-8096-BE89A7127DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A479FD1-03CC-410C-8096-BE89A7127DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A479FD1-03CC-410C-8096-BE89A7127DE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
